@@ -1,0 +1,36 @@
+.style_body{
+    background-color:#1D1E2A;
+    font-family: 'Nunito';
+    color:#fff;
+}
+.style_navbar{
+    background-color: #2D2D39;
+    box-shadow: -1px 10px 5px -3px rgba(0,0,0,0.29);
+    -webkit-box-shadow: -1px 10px 5px -3px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px 10px 5px -3px rgba(0,0,0,0.29);
+}
+.style_aviso{
+    border: 3px solid #42CBFF;
+    border-radius: 8px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    margin:15px;
+    background-color: #2D2D39;
+}
+.style_localizar_tela_tipo1{
+    display: block;
+}
+.style_localizar_tela_tipo2{
+    display: none;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 200px){
+    .style_localizar_tela_tipo1{
+        display: none;
+    }
+    .style_localizar_tela_tipo2{
+        display: block;
+    }
+}
+
